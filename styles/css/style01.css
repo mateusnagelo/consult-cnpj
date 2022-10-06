@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+body {
+    min-width: 372px;
+    background-color: rgba(192, 192, 192, 0.215);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-text.truncar-3l {
+    font-style: normal;
+}
+
+.card-title {
+    font-family: roboto;
+    font-weight: bolder;
+}
+
+
+/* init logo  */
+
+b.init {
+    font-family: 'Kaushan Script';
+    /* transform: rotate(-8deg); */
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: .2rem;
+}
+
+b:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* the end logo  */
+
+
+/* init navbar  */
+
+a.nav-link.text-white {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+a.nav-link.text-white:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* the end navbar  */
+
+.wrapper {
+    min-height: 100vh;
+}
+
+p.truncar-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+label:hover .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+label .text-dark {
+    transition: color 0.2s ease;
+}
+
+.btn-check:checked+.btn-outline-danger .text-dark,
+.btn-check:active+.btn-outline-danger .text-dark,
+.btn-check:hover+.btn-outline-danger .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #dc3545;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+fieldset.row .form-floating>label {
+    margin-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+
+/* cookies */
+
+.cookies-container {
+    color: rgba(0, 0, 0, 0.712);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 2rem;
+    z-index: 1000;
+    background-color: #ffff;
+}
+
+.cookies-content {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    /* max-width: 520px; */
+    padding: 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: slideUp 0.5s forwards;
+}
+
+.cookies-poopup {
+    font-size: larger;
+    font-style: italic;
+    font-size: 160%;
+    color: rgb(160, 157, 157);
+    /* background-color: beige; */
+}
+
+span {
+    font-size: larger;
+}
+
+@keyframes slideUp {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+.cookies-pref label {
+    margin-right: 1rem;
+}
+
+.cookies-save {
+    grid-column: 2;
+    grid-row: 1/3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(255, 0, 0, 0.685);
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+    .cookies-content {
+        grid-template-columns: 1fr;
+    }
+    .cookies-save {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
+
+
+/* meenu-hamburguer */
+
+
+/* footer  */
+
+
+/* init footer-ma */
+
+
+/* div.footer-ma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding: 1.5rem;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+/* the end footer-ma */
+
+
+/* .text-decoration-none {
+    font-size: .90rem;
+    font-weight: bold
+} */
+
+#columun-footer {
+    background-color: #dc3545;
+}
+
+.col-12.col-md-4.text-center {
+    font-size: .90rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold
+}
+
+
+/* button voltar ao topo  */
+
+#back-to-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: .6rem;
+    padding: 1rem;
+    display: block;
+    cursor: pointer;
+    color: #ffff;
+}
+
+
+/* the end button topo  */
+
+
+/* head img svg  */
+
+#nav-svg-position {
+    background-color: #dc3545;
+    display: flex;
+}
+
+
+/* .imgsvg-head {
+    position: relative;
+} */
+
+#form-dados-pessoais {
+    font-family: roboto;
+}
+
+
+/* css valid forme  */
+
+.card {
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+
+iframe {
+    width: 100%;
+    height: 420px;
+}
+
+textarea.form-control {
+    height: 90px;
+    resize: none;
+}
+
+form,
+.alert {
+    margin-bottom: 0;
+}
+
+
+/* the end css forme  */
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.img-consulta {
+    position: relative;
+    width: 20rem;
+    padding: 1.5rem;
+}
+
+.titulodwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#form-id {
+    padding: 12rem;
+}
+
+.footer-ma {
+    padding: 3rem;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.text-decoration-none {
+    color: black;
+}

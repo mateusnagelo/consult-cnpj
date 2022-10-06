@@ -4,21 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/css/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Teste</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>Consulta CNPJ</title>
 </head>
 
 
@@ -47,7 +41,7 @@
             <h1 class="titulodwo">Dados Receita Federal</h1>
             <hr>
 
-            <form class="mt-3" id="form-contato">
+            <form class="mt-3" id="form-id">
                 <div class="row">
                     <div class="col-sm-12 col-md-6" id="form-dados-pessoais">
                         <fieldset class="row gx-3">
@@ -63,16 +57,15 @@
                                 <input class="form-control" type="text" id="inscricao" placeholder=" " />
                                 <label for="inscricao">Inscrição Estadual</label>
                             </div>
-                            <div class="form-floating mb-3 col-md-4">
+                            <div class="form-floating mb-3 col-md-3">
                                 <input class="form-control" type="text" placeholder=" " id="porte" />
                                 <label for="porte">Porte</label>
                             </div>
-                            <div class="form-floating mb-3 col-md-4 col-xl-2">
+                            <div class="form-floating mb-3 col-md-4 col-xl-4">
                                 <input class="form-control" type="text" id="natureza" placeholder=" " />
                                 <label for="natureza">Natureza Jurídica</label>
                             </div>
-                        </fieldset>
-                        <fieldset>
+
                             <legend></legend>
                             <div class="form-floating mb-3 col-md-3">
                                 <input class="form-control" placeholder=" " type="situacao" id="situacao" />
@@ -80,7 +73,7 @@
                             </div>
 
                             <div class="form-floating mb-3 col-md-5">
-                                <input class="form-control" type="email" id="telefone" placeholder=" " />
+                                <input class="form-control" type="text" id="telefone" placeholder=" " />
                                 <label for="telefone">Telefone</label>
                             </div>
 
