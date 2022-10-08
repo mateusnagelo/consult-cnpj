@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/css/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>Consulta CNPJ</title>
+</head>
+
+
+
+<section class="flex-fill" id="form-id">
+    <div class="container">
+        <div class="row justify-content-center">
+            <form class="col-sm-10 col-md-8 col-lg-6" id="searchForm">
+                <div class="titulo">
+                    <h1 class="titulo">Consulta CNPJ</h1>
+                    <img class="img-consulta" src="./img/undraw_people_search_re_5rre.svg">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="" class="form-control" id="cnpj" placeholder="CNPJ: 00.000.000/0000-00" autofocus required>
+                    <button class="btn btn-success">Consultar</button>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container">
+    <main class="flex-fill">
+        <div class="">
+            <h1 class="titulodwo">Dados Receita Federal</h1>
+            <hr>
+
+            <form class="mt-3" id="form-contato">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6" id="form-dados-pessoais">
+                        <fieldset class="row gx-3">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="text" id="nome" placeholder=" " autofocus />
+                                <label for="nome">Razão Social</label>
+                            </div>
+                            <div class="form-floating mb-2">
+                                <input class="form-control" type="text" id="fantasia" placeholder=" " autofocus />
+                                <label for="fantasia">Nome Fantasia</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="text" id="inscricao" placeholder=" " />
+                                <label for="inscricao">Inscrição Estadual</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-3">
+                                <input class="form-control" type="text" placeholder=" " id="porte" />
+                                <label for="porte">Porte</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-4 col-xl-4">
+                                <input class="form-control" type="text" id="natureza" placeholder=" " />
+                                <label for="natureza">Natureza Jurídica</label>
+                            </div>
+
+                            <legend></legend>
+                            <div class="form-floating mb-3 col-md-3">
+                                <input class="form-control" placeholder=" " type="situacao" id="situacao" />
+                                <label for="situacao">Situação</label>
+                            </div>
+
+                            <div class="form-floating mb-3 col-md-5">
+                                <input class="form-control" type="text" id="telefone" placeholder=" " />
+                                <label for="telefone">Telefone</label>
+                            </div>
+
+                        </fieldset>
+                    </div>
+                    <div class="col-sm-12 col-md-5">
+                        <fieldset class="row gx-3">
+
+                            <div class="form-floating mb-3 col-md-6 col-lg-3">
+                                <input class="form-control" type="text" id="cep" placeholder=" " />
+                                <label for="cep">CEP</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-5">
+                                <input class="form-control" type="text" id="cidade" placeholder=" " />
+                                <label for="cidade">Cidade</label>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            <div class="form-floating mb-3 col-md-4">
+                                <input class="form-control" type="number" id="numero" placeholder=" " />
+                                <label for="numero">Número</label>
+                            </div>
+
+                            <div class="form-floating mb-3 col-md-6 col-lg-4">
+                                <input class="form-control" type="text" id="estado" placeholder=" " />
+                                <label for="estado">Estado</label>
+                            </div>
+
+                            <div class="form-floating col-lg-2">
+                                <input class="form-control" type="text" id="uf" placeholder=" " />
+                                <label for="uf">UF</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="text" id="endereco" placeholder=" " />
+                                <label for="endereco">Endereço</label>
+                            </div>
+                        </fieldset>
+                        <fieldset class="row gx-3">
+                            <legend></legend>
+                            <div class="form-floating mb-3 col-lg-6">
+                                <input class="form-control" type="text" id="bairro" placeholder=" " />
+                                <label for="bairro">Bairro</label>
+                            </div>
+                            <div class="form-floating mb-3 col-lg-6">
+                                <input class="form-control" type="text" id="complemento" placeholder=" " />
+                                <label class="form-label" for="complemento">Complemento</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <hr />
+
+                <div class="mb-3 text-left">
+
+
+            </form>
+            </div>
+    </main>
+    </div>
+
+
+    <section>
+        <footer>
+            <div class="footer-ma">
+                <div class="footer ">
+
+                </div>
+                <p> <a class="text-decoration-none" href=" https://github.com/mateusnagelo " target="_blank" rel="noopener noreferrer">
+            Copyright © 2022 todos os direitos reservados | Este site foi criado por Mateus Ângelo
+        </a>
+                </p>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <!-- init button topo  -->
+    <div class="topo-button">
+        <i class="bi bi-arrow-up-circle" id="back-to-top" onclick="scrollBar()" style="font-size: 35px; line-height: 50px;"></i>
+    </div>
+
+    <!-- the end button topo  -->
+
+    <script src='./assets/index.js'></script>
+    </body>
+
+</html>
