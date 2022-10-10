@@ -292,3 +292,13 @@ button {
     font: bold15px arial, sans-serif;
     text-shadow: none;
 }
+
+
+/* footer  */
+
+section {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
