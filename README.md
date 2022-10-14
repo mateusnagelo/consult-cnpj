@@ -5,7 +5,8 @@
 <h1 align="center">  Conult your cnpj with cnpj number  </h1>
 
 
-Pagina de consulta CNPJ com integração com API da WS
+Pagina de consulta CNPJ com integração com API da WS <br>
+<br>
 Desenvolvida com HTML5, CSS3 e JavaScript puro.
 
 
