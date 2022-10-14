@@ -1,4 +1,4 @@
-<img src="img/consulta cnpj.png"/>
+<img src=""/>
 
 
 
@@ -7,11 +7,7 @@
 
 Pagina de consulta CNPJ com integração com API da WS <br>
 <br>
-Desenvolvida com HTML5, CSS3 e JavaScript puro.
-
-
-
-
-
+Desenvolvida com HTML5, CSS3 e JavaScript puro. <br>
+<br>
 
 LINK DA PAGINA: https://consulta-cnpj-api-ma.netlify.app/
