@@ -2,12 +2,12 @@
 
 
 
-<h1 align="center">  Conult your cnpj with cnpj number  </h1>
+<h1 align="center">  Conult your CNPJ with CNPJ number  </h1>
 
 
-Pagina de consulta CNPJ com integração com API da WS <br>
+CNPJ query page with WS API integration <br>
 <br>
-Desenvolvida com HTML5, CSS3 e JavaScript puro. <br>
+Developed with HTML5, CSS3 and pure JavaScript. <br>
 <br>
 
 LINK DA PAGINA: https://consulta-cnpj-api-ma.netlify.app/
