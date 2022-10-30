@@ -10,4 +10,4 @@ CNPJ query page with WS API integration <br>
 Developed with HTML5, CSS3 and pure JavaScript. <br>
 <br>
 
-LINK DA PAGINA: https://consulta-cnpj-api-ma.netlify.app/
+Page Link: https://consulta-cnpj-api-ma.netlify.app/
